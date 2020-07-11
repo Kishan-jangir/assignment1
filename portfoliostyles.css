@@ -1,0 +1,46 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* Navigation Bar */
+
+nav{
+  font-size: 1.2rem;
+  background-color:#fefdca;
+}
+
+.nav-item{
+  color: #928a97;
+}
+
+nav a:hover{
+  color: #625772;
+}
+
+/* Doubt */
+/* nav .nav-brand a:hover{
+  color: #625772;
+} */
+
+
+li #nav-brand{
+  font-size: 2rem;
+  padding-right: 500px;
+  font-weight: bold;
+  color: #7ac7c4;
+}
+
+a{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul{
+  list-style-type: none;
+  display: inline-block;
+}
+
+/* Home section */
