@@ -3,9 +3,7 @@ body{
   font-family: sans-serif;
   text-align: center;
 }
-h1{
-  font-weight:bolder;
-}
+
 nav{
   background-color:#f6f6f6;
   padding-top: 15px;
@@ -13,7 +11,7 @@ nav{
   padding-right: 1229px;
 }
 
-a{
+nav a{
   text-decoration: none;
   font-size: 2.4rem;
   font-weight: bold;
@@ -45,14 +43,11 @@ a{
   top: 130px;
 }
 
-.login-box a{
-  color: #000000;
-}
 #login-box-header{
   padding-top: 50px;
   padding-bottom: 15px;
 }
-.login-box div{
+.login-box form div{
   font-size: 1.9rem;
   color: #ffffff;
 
@@ -67,7 +62,7 @@ a{
   border-radius: 4px;
 }
 
-.sign-in-btn {
+#sign-in-btn {
 	background-color:#60a63f;
 	border-radius:4px;
 	border:1px solid #60a63f;
@@ -81,17 +76,17 @@ a{
   margin-top: 17px;
   margin-right: 40px;
 }
-.sign-in-btn:hover {
+#sign-in-btn:hover {
 	background-color:#489624;
 }
-.sign-in-btn:active {
+#sign-in-btn:active {
 	position:relative;
 	top:1px;
 }
 
 
 /* Reset button */
-.reset-btn {
+#reset-btn {
 	background-color:#fa504b;
 	border-radius:4px;
 	border:1px solid #fa504b;
@@ -104,10 +99,10 @@ a{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #c95141;
 }
-.reset-btn:hover {
+#reset-btn:hover {
 	background-color:#de3128;
 }
-.reset-btn:active {
+#reset-btn:active {
 	position:relative;
 	top:1px;
 }
