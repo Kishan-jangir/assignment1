@@ -5,6 +5,29 @@ body{
   font-family: 'Merriweather', serif;
 }
 
+.grid-item1{
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+}
+
+.grid-item2{
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+}
+
+.grid-item3{
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+}
+
+.grid-item4{
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+}
 /* Navigation Bar */
 
 nav{
