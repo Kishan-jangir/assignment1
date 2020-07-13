@@ -5,28 +5,42 @@ body{
   font-family: 'Merriweather', serif;
 }
 
-.grid-item1{
-  display: inline-block;
-  width: 300px;
-  height: 250px;
+.grid-container{
+  margin-top: 5%;
 }
+.grid-gif1{
+  width: 200px;
+  height: 200px;
 
-.grid-item2{
-  display: inline-block;
-  width: 300px;
-  height: 250px;
 }
-
-.grid-item3{
-  display: inline-block;
-  width: 300px;
+.grid-gif2{
+  width: 210px;
   height: 200px;
 }
-
-.grid-item4{
-  display: inline-block;
+.grid-gif3{
+  width: 120px;
+  height: 200px;
+}
+.grid-gif4{
   width: 200px;
+  height: 200px;
+}
+.grid-item{
+  width: 300px;
   height: 250px;
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  background-color:  #e4f9ff;
+  border-radius: 40%;
+  margin: 0 20px;
+}
+
+.hobby-name{
+  padding-top: 45px;
+  font-family: "Montserrat",serif;
+  color: #40514E;
+  font-size: 1.3rem;
 }
 /* Navigation Bar */
 
@@ -118,12 +132,12 @@ h3{
   height: 210px;
   width: 210px;
 }
-.top-container{
+#top-container{
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
-.middle-container{
+#middle-container{
 
   padding: 100px 0;
 
@@ -140,7 +154,7 @@ h3{
   text-align: left;
 }
 
-.bottom-container{
+#contact-container{
   background-color: #66BFBF;
   padding: 50px 0 20px 0;
   padding-top: 40px;

@@ -14,16 +14,17 @@
   <nav>
     <div class="nav-bar">
       <li><a id="nav-brand" href="#">Portfolio</a></li>
-      <li><a class="nav-item" href="#">Home</a></li>
-      <li><a class="nav-item" href="#">Hobbies</a></li>
-      <li><a class="nav-item" href="#">Interest</a></li>
-      <li><a class="nav-item" href="#">Personal Summary</a></li>
+      <li><a class="nav-item" href="#top-container">Home</a></li>
+      <li><a class="nav-item" href="#hobbies-container">Hobbies</a></li>
+      <li><a class="nav-item" href="#skills-container">Skills</a></li>
+      <li><a class="nav-item" href="#interest-container">Interest</a></li>
+      <li><a class="nav-item" href="#middle-container">Personal Summary</a></li>
       <li><a class="nav-item" href="#">Professional Summary</a></li>
     </div>
 
   </nav>
 
-  <header class="top-container">
+  <header id="top-container">
     <img class="top-cloud " src="images/cloud.png" alt="cloud-img">
     <h1>I'm Kishan.</h1>
     <h2>a <span class="pro">pro</span>grammer</h2>
@@ -31,34 +32,41 @@
     <img src="images/mountain.png" alt="mountain-img">
   </header>
 
-  <section class="middle-container">
+  <section id="middle-container">
     <div class="profile">
       <img class="profile-pic" src="images/circle-cropped.png" alt="kishan's profile picture">
       <h2>Hello.</h2>
       <p class="intro">I am an web-developer and upcoming Computer Science Engineer. I ❤️ love to play Basketball.</p>
     </div>
 
-    <div id="hobbies">
+    <hr>
+
+    <section id="hobbies-container">
+      <h2>My Hobbies.</h2>
       <div class="grid-container">
-        <div class="grid-item1"> <img class="grid-item1" src="images/cycle.gif" alt="cycle-gif"> </div>
-        <div class="grid-item2"><img class="grid-item2" src="images/running.gif" alt="running-gif"> </div>
-        <div class="grid-item3"><img class="grid-item3" src="images/music.gif" alt="musicali-Instrument-gif"></div>
-        <div class="grid-item4"><img class="grid-item4" src="images/travel.gif" alt="travel-gif"></div>
-      </div>
+        <div class="grid-item"> <img class="grid-gif1" src="images/cycle.gif" alt="cycle-gif"><h3 class="hobby-name">Cycling</h3> </div>
+        <div class="grid-item"><img class="grid-gif2" src="images/running.gif" alt="running-gif"><h3 class="hobby-name">Running</h3> </div>
+        <div class="grid-item"><img class="grid-gif3" src="images/music.gif" alt="musicali-Instrument-gif"><h3 class="hobby-name">Playing Musical  Insrument</h3></div>
+        <div class="grid-item"><img class="grid-gif4" src="images/travel.gif" alt="travel-gif"><h3 class="hobby-name">travelling</h3></div>
+      </section>
     </div>
 
-    <div id="interest">
+<hr>
+
+    <section id="interest-container">
+      <h2>My Interest.</h2>
       <div class="grid-container">
-        <div class="">Dance</div>
-        <div class="">sports</div>
-        <div class="">Coding</div>
+        <div class="grid-item"> <img class="grid-gif1" src="" alt=""><h3 class="hobby-name">Dance</h3> </div>
+        <div class="grid-item"><img class="grid-gif2" src="" alt=""><h3 class="hobby-name">Sports</h3> </div>
+        <div class="grid-item"><img class="grid-gif3" src="" alt=""><h3 class="hobby-name">Coding</h3></div>
       </div>
+    </section>
 
     </div>
 
     <hr>
 
-    <div class="skills">
+    <div id="skills-container">
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="design-and-development" src="images/code.gif" alt="design-and-development-img">
@@ -80,7 +88,7 @@
     </div>
   </section>
 
-  <div class="bottom-container">
+  <div class="contact-container">
     <a class="footer-link" href="http://www.linkedin.com/in/kishan-kumar-0b9175191">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/kishankumarjan7">Twitter</a>
     <a class="footer-link" href="https://kishan-jangir.github.io/Resume/">Website</a>
